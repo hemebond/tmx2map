@@ -21,7 +21,7 @@ import time
 
 import numpy
 import tmx
-from quake import map as m
+from vgio.quake import map as m
 
 import mathhelper
 
