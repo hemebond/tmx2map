@@ -421,7 +421,7 @@ for layer in tilemap.layers:
                 e = m.Entity()
                 for prop in obj.properties:
                     if prop.name == 'Z':
-                        z += prop.value
+                        z += int(prop.value)
 
                     else:
                         setattr(e, prop.name, prop.value)
@@ -447,7 +447,7 @@ for layer in tilemap.layers:
 
                 for prop in obj.properties:
                     if prop.name == 'Z':
-                        z = prop.value
+                        z = int(prop.value)
 
                     else:
                         setattr(e, prop.name, prop.value)
