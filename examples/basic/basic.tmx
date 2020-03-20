@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="2017.11.22" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" infinite="0" nextobjectid="13">
+<map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="32" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="13">
  <tileset firstgid="1" source="basic.tsx"/>
- <layer name="Tile Layer 1" width="32" height="32">
+ <layer id="1" name="Tile Layer 1" width="32" height="32">
   <properties>
    <property name="Z Offset" type="float" value="0"/>
   </properties>
@@ -40,24 +40,24 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="Object Layer 1">
+ <objectgroup id="2" name="Object Layer 1">
   <properties>
    <property name="Z Offset" type="float" value="0"/>
   </properties>
-  <object id="1" name="info_player_start" x="127.5" y="463.5">
+  <object id="1" name="info_player_start" x="127" y="463">
    <properties>
     <property name="Z" type="float" value="120"/>
     <property name="angle" type="float" value="0"/>
    </properties>
    <point/>
   </object>
-  <object id="4" name="weapon_supershotgun" x="207.333" y="463.667">
+  <object id="4" name="weapon_supershotgun" x="207" y="463">
    <properties>
     <property name="Z" type="float" value="20"/>
    </properties>
    <point/>
   </object>
-  <object id="6" name="item_armor1" x="398" y="558.666">
+  <object id="6" name="item_armor1" x="398" y="558">
    <properties>
     <property name="Z" type="float" value="96"/>
    </properties>
