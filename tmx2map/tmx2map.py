@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """Command line utility for creating and creating WAD files from BSP files
 
 Supported Tilemaps:
